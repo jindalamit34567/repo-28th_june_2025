@@ -1,3 +1,7 @@
+# यह Terraform कोड Azure संसाधनों के प्रबंधन के लिए उपयोग किया जाता है।
+# इसमें backend configuration और provider details शामिल हैं।
+# यह कोड Azure में resource group, storage account, और अन्य संसाधनों को प्रबंधित करने के लिए उपयोगी है।
+
 terraform { 
   backend "azurerm" {
     resource_group_name  = "brijesh_RG12"                     # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
